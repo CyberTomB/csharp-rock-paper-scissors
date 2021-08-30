@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "csharp-rps/1.0.0": {
+        "runtime": {
+          "csharp-rps.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "csharp-rps/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

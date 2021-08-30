@@ -1,0 +1,16 @@
+C:\source\codeworks\csharp-rps\bin\Debug\net5.0\csharp-rps.exe
+C:\source\codeworks\csharp-rps\bin\Debug\net5.0\csharp-rps.deps.json
+C:\source\codeworks\csharp-rps\bin\Debug\net5.0\csharp-rps.runtimeconfig.json
+C:\source\codeworks\csharp-rps\bin\Debug\net5.0\csharp-rps.runtimeconfig.dev.json
+C:\source\codeworks\csharp-rps\bin\Debug\net5.0\csharp-rps.dll
+C:\source\codeworks\csharp-rps\bin\Debug\net5.0\ref\csharp-rps.dll
+C:\source\codeworks\csharp-rps\bin\Debug\net5.0\csharp-rps.pdb
+C:\source\codeworks\csharp-rps\obj\Debug\net5.0\csharp-rps.csproj.AssemblyReference.cache
+C:\source\codeworks\csharp-rps\obj\Debug\net5.0\csharp-rps.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\codeworks\csharp-rps\obj\Debug\net5.0\csharp-rps.AssemblyInfoInputs.cache
+C:\source\codeworks\csharp-rps\obj\Debug\net5.0\csharp-rps.AssemblyInfo.cs
+C:\source\codeworks\csharp-rps\obj\Debug\net5.0\csharp-rps.csproj.CoreCompileInputs.cache
+C:\source\codeworks\csharp-rps\obj\Debug\net5.0\csharp-rps.dll
+C:\source\codeworks\csharp-rps\obj\Debug\net5.0\ref\csharp-rps.dll
+C:\source\codeworks\csharp-rps\obj\Debug\net5.0\csharp-rps.pdb
+C:\source\codeworks\csharp-rps\obj\Debug\net5.0\csharp-rps.genruntimeconfig.cache
