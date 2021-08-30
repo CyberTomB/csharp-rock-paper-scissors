@@ -30,8 +30,9 @@ namespace csharp_rps
         PlayerChoice(computerChoice);
       }
       else {
+        var match = Array.Find(choices[computerChoice], x => x == playerChoice);
         if(computerChoice == playerChoice){
-          System.Console.WriteLine(@"
+          System.Console.WriteLine(@$"
           I chose: {playerChoice}
           You chose: {computerChoice}
           Result: DRAW");
