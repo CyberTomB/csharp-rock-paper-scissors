@@ -10,25 +10,39 @@ namespace csharp_rps
     public void StartGame()
     {
       System.Console.WriteLine("Let's play rock-paper-scissors!");
+      var random = new Random();
+      var index = random.Next(choices.Count);
+      string computerChoice = RPS[index];
       foreach (string i in RPS)
       {
         System.Console.WriteLine("{0} ", i);
       }
-      PlayerChoice();
+      PlayerChoice(computerChoice);
 
     }
 
-    private void PlayerChoice()
+    private void PlayerChoice(string computerChoice)
     {
       string playerChoice = Console.ReadLine().ToLower();
       if (choices.ContainsKey(playerChoice) == false)
       {
         System.Console.WriteLine("That's not a valid choice. Try again, noob:");
-        PlayerChoice();
+        PlayerChoice(computerChoice);
       }
-      else { 
+      else {
+        if(computerChoice == playerChoice){
+          System.Console.WriteLine(@"
+          I chose: {playerChoice}
+          You chose: {computerChoice}
+          Result: DRAW");
+        } else {
+        System.Console.WriteLine(@$"
+          I chose: {computerChoice}
+          You chose: {playerChoice}
+          Result: WIN");
         foreach (string i in choices[playerChoice]){
         System.Console.WriteLine(i);
+        }
       }
        }
     }
