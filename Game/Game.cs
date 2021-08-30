@@ -6,6 +6,7 @@ namespace csharp_rps
   public class Game
   {
     private List<String> RPS {get; set;}
+    private Dictionary<String, Array> choices;
     public void StartGame()
     {
       System.Console.WriteLine("Let's play rock-paper-scissors!");
@@ -20,18 +21,27 @@ namespace csharp_rps
     private void PlayerChoice()
     {
       string playerChoice = Console.ReadLine().ToLower();
-      string match = RPS.Find(s => s == playerChoice);
-      if (match == null)
+      if (choices.ContainsKey(playerChoice) == false)
       {
         System.Console.WriteLine("That's not a valid choice. Try again, noob:");
         PlayerChoice();
       }
-      else { System.Console.WriteLine("You chose: " + match); }
+      else { 
+        foreach (string i in choices[playerChoice]){
+        System.Console.WriteLine(i);
+      }
+       }
     }
 
     public Game()
     {
       RPS = new List<String>{"rock", "paper", "scissors"};
+      choices = new Dictionary<string, Array>{
+        {"rock", new[]{"scissors"}},
+        {"scissors", new[]{"paper"}},
+        {"paper", new[]{"rock"}},
+
+      };
       StartGame();
     }
   }
